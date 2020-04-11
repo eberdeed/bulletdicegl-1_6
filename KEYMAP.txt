@@ -1,0 +1,18 @@
+
+
+    Bullet Dice for OpenGL 1.6
+
+    The key layout is as follows:
+    wasd as usual motion keys.
+    
+    Viewing direction:
+    Mouse: In order to change view direction mouse down to select start move and then mouse up to stop motion.
+    
+    x reverse view.
+    z reset view.
+    p pauses the game.
+    Escape ends the program.
+    
+    Mouse wheel forward zooms in.
+    Mouse wheel back zooms out.
+    

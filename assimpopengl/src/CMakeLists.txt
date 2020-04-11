@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.12)
+project(assimpopengl)
+add_library(assimpopengl SHARED model.cpp mesh.cpp meshtex.cpp meshvert.cpp shader.cpp createimage.cpp)
+add_definitions(-g -fPIC -std=c++17 -pthread)
+include_directories(/usr/include/GL /usr/include/boost /usr/include/glm)
+link_directories(/usr/lib /usr/lib/x86_64-linux-gnu /usr/local/lib)
+target_link_libraries(assimpopengl stdc++ GLEW GL GLU pthread boost_chrono boost_filesystem boost_system assimp freeimage freeimageplus)
+install(TARGETS assimpopengl DESTINATION /usr/lib)

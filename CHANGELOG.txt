@@ -1,0 +1,13 @@
+
+
+    ChangeLog for bulletdicegl-1_6:
+    
+    Program created and documented as blenderframe using ClanLib 1.0.
+    02/05/2020 ECE
+    
+    Program adapted into SDL2 and redocumented.
+    03/24/2020 ECE
+
+    Program further adapted and the library libassimpopengl.so added
+    as a subproject.
+    04/09/2020 ECE

@@ -1,0 +1,3 @@
+
+    libassimpopengl created and debugged.
+    ECE 03/30/20
